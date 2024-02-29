@@ -1,6 +1,6 @@
 variable  "cidr" {
   type        = string
- 
+ default = {}
   }
   variable  "enable_dns_hostnames" {
   type        = bool
